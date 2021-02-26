@@ -1,26 +1,36 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-       background-color: #fab702;
+    background-color: #fab702;
 }
-h2, h4, h6, p, ul, li, a{
+
+h2,
+h4,
+h6,
+p,
+ul,
+li,
+a {
     margin: 0;
     box-sizing: border-box;
 }
 
-.top a{
+.top a {
     display: block;
     text-transform: uppercase;
     color: blanchedalmond;
 }
-.action-part{
- background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 2));
+
+.action-part {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 2));
 }
-.navbar{
-     background-image: linear-gradient(to right, white,black);
+
+.navbar {
+    background-image: linear-gradient(to right, white, black);
 }
-.test img{
+
+.test img {
     height: 230px;
     width: 100%;
     object-fit: cover;
@@ -28,73 +38,86 @@ h2, h4, h6, p, ul, li, a{
     margin-bottom: 30px;
     margin-top: 30px;
 }
-.test h4{
+
+.test h4 {
     text-transform: uppercase;
 }
-.test small i{
-    
+
+.test small i {
+
     margin-top: 15px;
 }
-.test p{
-    margin:25px 0;
+
+.test p {
+    margin: 25px 0;
 }
-.test a{
-   
+
+.test a {
+
     margin-bottom: 10px;
     text-decoration: none;
     padding: 10px 30px;
     color: blue;
     border: 1.5px solid #fab702;
     text-transform: uppercase;
-  
+
 }
-.test a:hover{
+
+.test a:hover {
     color: white;
-    background-color:blue;
+    background-color: blue;
 }
+
 /* top part */
 
-.top1{
+.top1 {
     margin-top: 60px;
 }
-.top-start{
-   background-color:white;
-   padding: 50px;
-   position: relative;
+
+.top-start {
+    background-color: white;
+    padding: 50px;
+    position: relative;
 
 }
-.top-start::before{
+
+.top-start::before {
     position: absolute;
     content: "";
     width: 10px;
     background-color: black;
-   top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
     height: 100%;
 }
-.top-start h4{
+
+.top-start h4 {
     font-size: 20px;
 }
-.top-start p{
+
+.top-start p {
     font-size: 13px;
 }
-.top-start a{
+
+.top-start a {
     text-decoration: none;
     padding: 12px 30px;
     background-color: black;
     color: white;
 }
-@media screen and (min-width:576px){
+
+@media screen and (min-width:576px) {
 
 
-    .top-start a{
-         display: block;
+    .top-start a {
+        display: block;
         margin-top: 30px;
         text-align: center;
     }
 }
-@media screen and (min-width:992px){
-    .top-start a{
+
+@media screen and (min-width:992px) {
+    .top-start a {
         display: inline-block;
         margin-top: 30px;
     }
